@@ -1,0 +1,155 @@
+
+.mail{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+#about{
+    cursor: pointer;
+}
+
+#main{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8)), url("../img/coding.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+}
+
+#form-box{
+    height: 500px;
+}
+
+#language{
+    width: 200px;
+}
+
+.quiz{
+    background-color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    height: 100vh;
+}
+
+#info{
+    height:25px;
+    background-color: #fff;
+}
+
+#score{
+    width:50%;
+    float:left;
+    font-size: 25px;
+
+}
+
+#ques-left{
+    width:50%;
+    float:left;
+    font-size:25px;
+
+}
+
+#ques-view{
+    height: 35px;
+    margin-top: 10px;   
+    margin-bottom:10px;
+}
+.ques-circle{
+    float: left;
+    border-radius: 50%;
+    width: 35px;
+    height: 90%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.correct{
+    background-color: #2ecc71;
+}
+
+.incorrect{
+    background-color: #fc5c65;
+    color: #fff;
+}
+
+.choice{
+    background-color: #fff;
+    padding: 3%;
+}
+
+.options{
+    background-color: #fff;
+    display:block;
+    margin-left: 13%;
+    font-size: 25px;
+    font-weight: 100;
+    margin-top: 30px;
+    text-align: left;
+}
+
+ input[type=radio] {
+    border: 5px solid white;
+    width: 18px;
+    height: 1.6em;
+    float: left;
+    margin-right: 5px;
+}
+
+.ans-btn{
+    background-color: #fff;
+    padding: 2%;
+}
+
+/*Final Results*/
+.final-result{
+    background-color: #fff;
+    text-align: center;
+    padding: 5px;
+    font-size: 1.5em;
+    height: 100vh;
+}
+
+.solved-ques-no{
+    padding: 5px;
+}
+
+.right-wrong{
+    padding: 5px;
+}
+
+#display-final-score{
+    padding: 5px;
+}
+
+.remark{
+    padding: 5px;
+}
+
+
+@media only screen and (max-width: 1250px) {
+    .options{
+        margin-left: 8%
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .options{
+        margin-left: 4%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .options{
+        display: block;
+        margin-top: 3%;
+
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .options{
+        margin-top: 3%;
+
+    }
+}
